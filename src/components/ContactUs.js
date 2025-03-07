@@ -5,6 +5,8 @@ import home3 from "../assets/home3.png";
 import icn4 from "../assets/icn4.png";
 import Footer from "./Footer";
 import FAQSection from "./FAQSection";
+import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import GoogleMapComponent from "./GoogleMapComponent";
 
 const ContactPage = () => {
   return (
@@ -19,25 +21,43 @@ const ContactPage = () => {
             <div className="mt-6 space-y-8">
               <div className="flex items-center space-x-3">
                 <span className="text-lg">📞</span>
-                <p className="text-sm">+102 3456 789</p>
+                <p className="text-sm">99919477908</p>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-lg">📧</span>
-                <p className="text-sm">demo@gmail.com</p>
+                <p className="text-sm">info@umeedien.com</p>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-lg">📍</span>
                 <p className="text-sm">
-                  182 Dartmouth Street Boston, Massachusetts 0695 United States
+                  Amrapali riverview, Near Dmart Greater Noida 201306
                 </p>
               </div>
             </div>
 
             {/* Social Icons */}
             <div className="flex space-x-4 mt-6">
-              <span className="bg-gray-700 p-2 rounded-full">👍</span>
-              <span className="bg-gray-700 p-2 rounded-full">🐦</span>
-              <span className="bg-gray-700 p-2 rounded-full">📷</span>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="text-pink-500 hover:text-pink-700" />
+              </a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="text-blue-600 hover:text-blue-800" />
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="text-blue-500 hover:text-blue-700" />
+              </a>
             </div>
           </div>
 
@@ -70,11 +90,17 @@ const ContactPage = () => {
               <label className="block text-gray-700">Phone Number</label>
               <input
                 type="text"
-                value="+102 3456 789"
-                readOnly
-                className="w-full border-b p-2 bg-gray-100 focus:outline-none"
+                className="w-full border-b p-2  focus:outline-none"
+                maxLength="10"
+                // placeholder="Enter  phone number"
+                onInput={(e) =>
+                  (e.target.value = e.target.value
+                    .replace(/\D/g, "")
+                    .slice(0, 10))
+                }
               />
             </div>
+
             <div className="mt-6">
               <label className="block text-gray-700">Message</label>
               <textarea
@@ -92,21 +118,15 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center px-6 py-8">
+      <div className="flex flex-col items-center px-6 pt-8">
         {/* Header Section */}
         {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
           Start Donations
         </button> */}
-        <h2 className="text-3xl font-bold mt-6 text-center text-gray-900">
-          Explore What you Donate
-        </h2>
-        <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
-          Installing water wells and purification systems in areas with limited
-          access to clean water.
-        </p>
+     
       </div>
       <div>
-        <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-10 flex flex-col items-center justify-center text-center px-6">
+        <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-5 flex flex-col items-center justify-center text-center px-6">
           {/* Icons */}
           <img
             src={icn4}
@@ -143,8 +163,9 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <FAQSection/>
-      <Footer/>
+      <FAQSection />
+      <GoogleMapComponent/>
+      <Footer />
     </div>
   );
 };

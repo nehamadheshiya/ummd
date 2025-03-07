@@ -58,7 +58,7 @@ const FAQSection = () => {
                 className="w-full flex justify-between items-center p-4 text-left text-lg font-semibold bg-white hover:bg-gray-100"
               >
                 {faq.question}
-                <Plus className="w-5 h-5 text-gray-500" />
+                <Plus className="w-7 h-7 text-gray-700" />
               </button>
               {openIndex === index && (
                 <p className="p-4 text-gray-600 border-t">{faq.answer}</p>
@@ -74,9 +74,10 @@ const FAQSection = () => {
         <h3 className="text-xl font-semibold mb-6">
           Do you have more questions?
         </h3>
-        <p className="text-gray-600 mb-20">
+        <p className="text-gray-600 mb-2">
         Every small act of kindness can create a ripple effect of positive change. Your donations, whether in the form of funds, essentials, or time, help provide food, education, healthcare, and shelter to those in need. Together, we can build a stronger, more compassionate world where every individual has the opportunity to thrive. Join us in making a lasting impact—because a better tomorrow starts with the actions we take today.
         </p>
+        <p className="text-gray-600 mb-10">When we come together as a community, we amplify our ability to make a meaningful difference. A single act of generosity can inspire countless others to contribute, creating a chain reaction of goodwill. Whether it's offering support to a struggling family, funding educational programs, or simply spreading awareness, each contribution plays a vital role in shaping a better future.</p>
         <button className="bg-red-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-600 transition">
           Shoot a Direct Mail
         </button>
