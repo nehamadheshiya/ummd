@@ -3,6 +3,8 @@ import { Menu, X } from "lucide-react";
 import background from "../assets/children.png";
 import testi1 from "../assets/testi1.png";
 import testi2 from "../assets/testi2.png";
+import testi3 from "../assets/testi3.png";
+
 
 export default function Join() {
   return (
@@ -16,16 +18,21 @@ export default function Join() {
 
     
         <img
-          src={testi2}
+          src={testi1}
           alt="Testimonial 1"
-          className="absolute h-24 md:h-40 top-0 left-4 w-10  lg:w-14"
+          className="absolute lg:w-48 lg:h-64 w-36 h-48 top-[-2rem] left-0"
         />
 
         {/* Testi2 Image (Bottom-Left Corner) */}
         <img
-          src={testi1}
+          src={testi2}
           alt="Testimonial 2"
-          className="absolute bottom-5 left-8 md:left-28 w-28 md:w-28 lg:w-40"
+          className="absolute bottom-0 left-0 w-28 md:w-28 lg:w-40"
+        />
+         <img
+          src={testi3}
+          alt="Testimonial 2"
+          className="absolute top-3 lg:top-24 right-0 w-20 md:w-28 lg:w-36"
         />
 
         {/* Content */}

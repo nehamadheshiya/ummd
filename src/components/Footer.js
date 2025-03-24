@@ -16,7 +16,7 @@ const Footer = () => {
               Instagram
             </a>
           </div>
-          <div className="flex space-x-1 md:space-x-6  text-sm">
+          <div className="flex space-x-4 mx-2 md:space-x-6  text-sm">
             <a href="/" className="hover:underline">
               Home
             </a>

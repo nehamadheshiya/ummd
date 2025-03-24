@@ -1,6 +1,10 @@
 import React from "react";
 import yellowbg from "../assets/yellowbg.png";
-import { FaHeartbeat, FaTint, FaTree } from "react-icons/fa"; // Importing icons
+import { FaHeartbeat, FaTint, FaTree } from "react-icons/fa"; 
+import health from "../assets/health.png"
+import clean from "../assets/cleen.png"
+import eco from "../assets/eco.png"
+
 
 const DonationSection = () => {
   return (
@@ -25,8 +29,8 @@ const DonationSection = () => {
       <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10 w-full max-w-6xl">
         {/* Card 1 */}
         <div className="bg-[#094C3B] text-white p-6 rounded-xl shadow-lg flex flex-col gap-4 items-start">
-          <div className="bg-yellow-400 p-3 rounded-lg">
-            <FaHeartbeat className="text-2xl text-green-900" />
+          <div className="bg-[#FFE353] p-3 rounded-xl">
+            <img src={health} className="text-2xl text-green-900 h-7 w-8" />
           </div>
           <h3 className="text-xl font-semibold">Health for All</h3>
           <p className="text-sm">
@@ -36,8 +40,9 @@ const DonationSection = () => {
 
         {/* Card 2 */}
         <div className="bg-[#094C3B] text-white p-6 rounded-xl shadow-lg flex flex-col gap-4 items-start">
-          <div className="bg-yellow-400 p-3 rounded-lg">
-            <FaTint className="text-2xl text-green-900" />
+        <div className="bg-[#FFE353] p-2 rounded-xl">
+          <img src={clean} className="text-2xl text-green-900 h-9 w-10" />
+
           </div>
           <h3 className="text-xl font-semibold">Clean Water Access</h3>
           <p className="text-sm">
@@ -47,8 +52,9 @@ const DonationSection = () => {
 
         {/* Card 3 */}
         <div className="bg-[#094C3B] text-white p-6 rounded-xl shadow-lg flex flex-col gap-4 items-start">
-          <div className="bg-yellow-400 p-3 rounded-lg">
-            <FaTree className="text-2xl text-green-900" />
+        <div className="bg-[#FFE353] p-2 rounded-xl">
+          <img src={eco} className="text-2xl text-green-900 h-9 w-10" />
+
           </div>
           <h3 className="text-xl font-semibold">Eco Hope</h3>
           <p className="text-sm">

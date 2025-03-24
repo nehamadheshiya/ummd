@@ -1,5 +1,5 @@
 import React from "react";
-import donationback from "../assets/donationback.png";
+import donationback from "../assets/Website/Blogs.png";
 import Footer from "./Footer";
 import vector from "../assets/Vector.png";
 import blogImg1 from "../assets/testback.png";
@@ -7,6 +7,10 @@ import blogImg2 from "../assets/testback.png";
 import blogImg3 from "../assets/testback.png";
 import DonationSection from "./DonationSection";
 import FAQSection from "./FAQSection";
+import blog1 from "../assets/blog1.png"
+import blog2 from "../assets/blog2.png"
+import blog3 from "../assets/blog3.png"
+import backmobile from "../assets/Mobile/Blogs.png"
 
 const Blog = () => {
   const handleReadMore = (blogId) => {
@@ -18,14 +22,14 @@ const Blog = () => {
     <div className="mt-20">
       {/* Hero Section */}
       <header
-        className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
+        className="relative bg-cover bg-center bg-no-repeat w-full h-[18vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[rgba(9,76,59,0.9)] to-[rgba(9,76,59,0.2)]"></div>
-        <img src={vector} alt="Vector" className="absolute top-24 left-0 h-32" />
-        <div className="relative z-10 max-w-3xl mx-auto text-center text-white">
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-[rgba(9,76,59,0.9)] to-[rgba(9,76,59,0.2)]"></div>
+        <img src={vector} alt="Vector" className="absolute top-24 left-0 h-32" /> */}
+        <div className="relative  z-10 max-w-3xl mx-auto text-center text-white">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight">Blogs</h1>
-          <p className="mt-6 text-base md:text-lg font-medium">
+          <p className="mt-6 text-base md:text-lg font-medium ">
             Help Support Our Charities!
           </p>
         </div>
@@ -51,7 +55,7 @@ const Blog = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
           {/* Blog 1 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToTjfYZvS0dxadNbxkYSwvqLzWdBDPECWo5g&s" alt="Blog 1" className="w-full h-56 object-cover" />
+            <img src={blog3} alt="Blog 1" className="w-full h-56 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold">Providing Clean Water to Communities</h3>
               <p className="text-gray-600 mt-2 text-sm">
@@ -68,7 +72,7 @@ const Blog = () => {
           
           {/* Blog 2 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBz8uRsSAAmb6II--O_nq5WTRDU5cOx-Yirg&s" alt="Blog 2" className="w-full h-56 object-cover" />
+            <img src={blog1} alt="Blog 2" className="w-full h-56 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold">Education for Underprivileged Children</h3>
               <p className="text-gray-600 mt-2 text-sm">
@@ -85,7 +89,7 @@ const Blog = () => {
           
           {/* Blog 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75uyZMkgzodYKCCbg5YfPDOUeHTd5Yw00xA&s" alt="Blog 3" className="w-full h-56 object-cover" />
+            <img src={blog2} alt="Blog 3" className="w-full h-56 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold">Healthcare Access for Everyone</h3>
               <p className="text-gray-600 mt-2 text-sm">

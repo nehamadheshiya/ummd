@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Plus, MessageSquare } from "lucide-react";
-
+import feqr from "../assets/feqr.png"
 const FAQSection = () => {
   const faqs = [
     {
@@ -43,7 +43,12 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-14 p-6 md:p-12 max-w-7xl mx-auto mt-5">
+    <div className="flex relative flex-col md:flex-row gap-14 p-6 md:p-12 max-w-7xl mx-auto mt-5 lg:mt-12">
+       <img
+    src={feqr}
+    alt="Right Decoration"
+    className="absolute md:top-[2px] top-[-2rem] right-0 lg:mt-[-5rem] lg:mr-[-4rem] w-24 md:w-32 lg:w-40"
+  />
       {/* FAQ Section */}
       <div className="md:w-2/3">
         <h2 className="text-3xl font-bold mb-6">Frequently asked questions</h2>
@@ -69,9 +74,9 @@ const FAQSection = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="md:w-1/3 bg-gray-100  p-6 mt-20 rounded-lg shadow-md flex flex-col items-center text-center">
+      <div className="md:w-1/3 bg-gray-100  p-6 mt-[3rem] rounded-lg shadow-md flex flex-col items-center text-center">
         <MessageSquare className="w-12 h-12 mb-4 text-black" />
-        <h3 className="text-xl font-semibold mb-6">
+        <h3 className="text-xl font-semibold mb-5">
           Do you have more questions?
         </h3>
         <p className="text-gray-600 mb-2">
