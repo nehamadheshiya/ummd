@@ -8,8 +8,8 @@ import HowWeWork from "./HowWeWork";
 const WhatWeOffer = () => {
   return (
     <div className="mt-20">
-      <header
-        className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
+       <header
+        className="relative bg-cover bg-center bg-no-repeat h-[18vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
       >
         {/* <div className="absolute inset-0 bg-gradient-to-r from-[rgba(9,76,59,0.9)] to-[rgba(9,76,59,0.2)]"></div> */}

@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div>
       <>
-        <nav className="bg-[#094C3B] lg:bg-white shadow-md border-b border-gray-200 fixed top-0 left-0 w-full z-50 h-20">
+        <nav className="bg-white shadow-md border-b border-gray-200 fixed top-0 left-0 w-full z-50 h-20">
           <div className="w-full flex justify-between items-center py-2 md:py-2.5">
             <img
               src={logogif}
@@ -21,7 +21,7 @@ const Nav = () => {
             />
 
             <div className="flex items-center space-x-10 pr-4 md:pr-14">
-              <ul className="hidden md:flex space-x-14 text-gray-700">
+              <ul className="hidden md:flex space-x-16 text-gray-700">
                 {[{ name: "Home", path: "/" }].map((item) => (
                   <li
                     key={item.name}
@@ -51,7 +51,7 @@ const Nav = () => {
                       ].map((subItem) => (
                         <li
                           key={subItem.name}
-                          className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                          className="px-4 py-2 text-[14px] hover:bg-gray-100 cursor-pointer"
                         >
                           <Link
                             to={subItem.path}
@@ -69,8 +69,8 @@ const Nav = () => {
                   { name: "Donation", path: "/donation" },
                   { name: "Blog", path: "/blog" },
                   { name: "Contact Us", path: "/contact" },
-                  { name: "Privacy Policy", path: "/privacy-policy" },
-                  { name: "Terms & Condition", path: "/terms-conditions" },
+                  // { name: "Privacy Policy", path: "/privacy-policy" },
+                  // { name: "Terms & Condition", path: "/terms-conditions" },
                 ].map((item) => (
                   <li
                     key={item.name}
@@ -106,7 +106,7 @@ const Nav = () => {
         ></div>
 
         <div
-          className={`fixed top-0 right-0  bg-gray-50 w-full shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[600] ${
+          className={`fixed top-0 right-0  mt-20 bg-gray-50 w-full shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[600] ${
             menuOpen ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ maxHeight: "100vh", overflowY: "auto" }}
@@ -117,13 +117,13 @@ const Nav = () => {
           >
             <img src={cross} alt="cut" className=""/>
           </button>
-          <ul className="mt-12 space-y-5 text-gray-700">
+          <ul className="mt-4 space-y-5 text-gray-700">
             {[
               { name: "Home", path: "/" },
               { name: "Donation", path: "/donation" },
               { name: "Blog", path: "/blog" },
-              { name: "Privacy&Policy", path: "/privacy-policy" },
-              { name: "Terms&Conditions", path: "/terms-conditions" },
+              // { name: "Privacy&Policy", path: "/privacy-policy" },
+              // { name: "Terms&Conditions", path: "/terms-conditions" },
               { name: "Contact", path: "/contact" },
             ].map((item) => (
               <li
@@ -142,17 +142,17 @@ const Nav = () => {
                 className="flex items-center justify-between"
                 onClick={() => setAboutDropdown(!aboutDropdown)}
               >
-                <span>About Us</span>
+                <span className="text-[14px]">About Us</span>
                 <ChevronDown
                   size={18}
-                  className={`transition-transform ${
+                  className={`transition-transform  ${
                     aboutDropdown ? "rotate-180" : ""
                   }`}
                 />
               </div>
 
               {aboutDropdown && (
-                <ul className="mt-2 pl-4 space-y-2">
+                <ul className="mt-2 text-[14px] pl-4 space-y-2">
                   {[
                     { name: "Our Story", path: "/our-story" },
                     { name: "How We Work", path: "/how-we-work" },

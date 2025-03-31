@@ -11,8 +11,8 @@ import icn4 from "../assets/icn4.png";
 const OurStory = () => {
   return (
     <div className="mt-20">
-      <header
-        className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
+       <header
+        className="relative bg-cover bg-center bg-no-repeat h-[18vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
       >
        
