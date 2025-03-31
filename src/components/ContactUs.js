@@ -77,7 +77,7 @@ const ContactPage = () => {
             </div>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 mt-48">
+            <div className="hidden lg:flex space-x-4 mt-48">
               <a
                 href="https://twitter.com"
                 target="_blank"
@@ -103,7 +103,7 @@ const ContactPage = () => {
           </div>
 
           {/* Right Section - Contact Form */}
-          <div className="w-full md:w-2/3 p-6 md:p-10">
+          <div className="w-full md:w-2/3 p-6 md:p-10 mt-5 lg:mt-0">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-gray-700">First Name</label>
