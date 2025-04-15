@@ -33,12 +33,12 @@ const OurStory = () => {
         <h2 className="text-3xl font-bold mt-6 text-center text-gray-900">
           Our Story
         </h2>
-        <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
+        {/* <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
           Installing water wells and purification systems in areas with limited
           access to clean water.
-        </p>
+        </p> */}
       </div>
-      <div className="max-w-7xl mx-auto p-6 text-gray-900">
+      <div className="max-w-7xl mx-auto  text-gray-900">
         <section className="mb-6">
        
           <p className="text-justify text-gray-700 mt-4">

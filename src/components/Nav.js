@@ -87,7 +87,7 @@ const Nav = () => {
               </button> */}
 
               {/* Mobile Menu Button */}
-              <button className="md:hidden" onClick={() => setMenuOpen(true)}>
+              <button className="md:hidden h-10 w-10" onClick={() => setMenuOpen(true)}>
                 <img
                   src={gg_menu}
                   className="transition-transform duration-300 p-1  rounded-md ease-in-out transform hover:scale-110"
@@ -115,7 +115,7 @@ const Nav = () => {
             className="absolute top-4 right-4"
             onClick={() => setMenuOpen(false)}
           >
-            <img src={cross} alt="cut" className=""/>
+            <img className=" h-4 w-4" src={cross} alt="cut" />
           </button>
           <ul className="mt-4 space-y-7 text-gray-700">
             {[

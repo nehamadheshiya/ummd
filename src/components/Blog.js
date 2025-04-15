@@ -43,9 +43,13 @@ const Blog = () => {
         </p>
         <div className="max-w-7xl mx-auto p-0 md:p-2 mt-4 text-gray-900">
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">Join Our Donation Campaign to Support Those in Need</h2>
+          <h2 className="text-xl font-semibold">Welcome to Umeedein: A New Chapter of Hope</h2>
           <p className="text-justify text-gray-700 mt-2">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..
+          At Umeedein, we believe that even the smallest spark of hope can light up lives. Our journey began with a simple mission — to bring meaningful change to communities that need it the most. Through grassroots initiatives, education programs, and compassionate outreach, we're working to uplift, empower, and inspire.
+
+This blog will be our voice — a space to share stories of impact, updates on our projects, reflections from the field, and the incredible journeys of the people we work with. You'll get a behind-the-scenes look at how change really happens — not overnight, but with love, dedication, and unity.
+
+We invite you to walk with us, learn with us, and be a part of the movement. Because together, we are Umeedein — we are hope.
           </p>
         </section>
 
@@ -56,10 +60,10 @@ const Blog = () => {
           {/* Blog 1 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <img src={blog3} alt="Blog 1" className="w-full h-56 object-cover" />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold">Providing Clean Water to Communities</h3>
+            <div className="p-3">
+              <h3 className="text-lg font-semibold">How Small Donations Create a Big Impact in Someone’s Life</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                Our efforts to install wells and purification systems are making a difference worldwide.
+              Millions of people struggle with poverty, healthcare, education, and basic necessities in a country as large and diverse as India. Given the seriousness of these issues, a lot of people believe that only significant investment can have an impact.
               </p>
               <button 
                 className="mt-4 text-[#094C3B] font-bold hover:underline"
@@ -73,10 +77,11 @@ const Blog = () => {
           {/* Blog 2 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <img src={blog1} alt="Blog 2" className="w-full h-56 object-cover" />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold">Education for Underprivileged Children</h3>
+            <div className="p-3">
+              <h3 className="text-lg font-semibold">The Environmental Impact
+              of Donating vs.Throwing Away</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                We believe in the power of education to transform lives and break the cycle of poverty.
+              Necessities such as food for the poor, medical care for those who cannot afford treatment, and education for poor children are facilitated by small donations. To make underprivileged communities better and give people the opportunity.
               </p>
               <button 
                 className="mt-4 text-[#094C3B] font-bold hover:underline"
@@ -90,10 +95,11 @@ const Blog = () => {
           {/* Blog 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <img src={blog2} alt="Blog 3" className="w-full h-56 object-cover" />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold">Healthcare Access for Everyone</h3>
+            <div className="p-3">
+              <h3 className="text-lg font-semibold">Why Giving Back Feels So Good
+              :The Science Behind Altruism</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                Bringing medical aid and healthcare services to communities that need it the most.
+              Humans are naturally social creatures. Studies have shown that acts of altruism activate the brain's reward centers, similar to how we respond to food or music. Helping others reinforces our sense of purpose and belonging.
               </p>
               <button 
                 className="mt-4 text-[#094C3B] font-bold hover:underline"

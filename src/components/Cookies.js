@@ -187,7 +187,7 @@ const Cookies = () => {
           <h2 className="text-xl font-semibold">CONTACT US</h2>
           <p className="text-justify text-gray-700">
           For inquiries concerning this policy or our use of cookies, please get in touch with us at:<br></br>
-            <b>Umeedein</b>
+            {/* <b>Umeedein</b> */}
             <br></br>
             <b> info@umeedein.com</b>
             <br></br>

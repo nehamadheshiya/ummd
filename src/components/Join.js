@@ -41,7 +41,7 @@ export default function Join() {
             Join Our Community of Donors and Volunteers:<br></br> 
             Be Part of Positive Change in the World!
           </h1>
-          <p className="mt-4 text-4xl md:text-5xl font-bold">131,295+</p>
+          <p className="mt-4 text-4xl md:text-5xl font-bold">131,395+</p>
           {/* <p className="mt-4 text-base md:text-lg font-medium">
             Join the Many Who Already Support Our Mission
           </p> */}

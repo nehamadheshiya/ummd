@@ -230,7 +230,7 @@ const TermsConditions = () => {
           <h2 className="text-xl font-semibold">CONTACT US</h2>
           <p className="text-justify text-gray-700">
             For questions regarding this Privacy Policy, contact us at:<br></br>
-            <b>Umeedein</b><br></br>
+            {/* <b>Umeedein</b><br></br> */}
            <b> info@umeedein.com</b><br></br>
           <p className="pt-3">  This Privacy Policy is tailored for Umeedein and ensures compliance
           with relevant data protection laws in India.</p>

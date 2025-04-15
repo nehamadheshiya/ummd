@@ -41,10 +41,10 @@ const PrivacyPolicy = () => {
         <section className="mb-6">
           <h2 className="text-xl font-semibold">INTRODUCTION</h2>
           <p className="text-justify text-gray-700">
-            Umeedein ("we," "us," or "our") values and respects the privacy of
-            our users ("you" or "your"). This Privacy Policy outlines how we
+            Umeedein values and respects the privacy of
+            our users . This Privacy Policy outlines how we
             collect, use, disclose, and protect your personal information when
-            you visit our website [website URL], including any associated media
+            you visit our website , including any associated media
             channels, mobile websites, or applications (collectively, the
             "Site").<br></br> Please review this Privacy Policy carefully. If
             you do not agree with its terms, we advise you not to access the
@@ -230,8 +230,8 @@ const PrivacyPolicy = () => {
           <h2 className="text-xl font-semibold">CONTACT US</h2>
           <p className="text-justify text-gray-700">
             For questions regarding this Privacy Policy, contact us at:<br></br>
-            <b>Umeedein</b><br></br>
-           <b> info@umeedein.com</b><br></br>
+            {/* <b>Umeedein</b><br></br> */}
+           <b className="pt-2"> info@umeedein.com</b><br></br>
           <p className="pt-3">  This Privacy Policy is tailored for Umeedein and ensures compliance
           with relevant data protection laws in India.</p>
           </p>

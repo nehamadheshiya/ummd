@@ -51,7 +51,7 @@ export default function HomePage() {
           <h1 className="text-3xl md:text-6xl py-2 font-bold leading-tight">
             Every Helping Hand, <br /> Every Heartfelt Change
           </h1>
-          <p className="mt-4 text-base md:text-xl py-2">
+          <p className="mt-4 text-sm md:text-lg py-2">
             Every helping hand brings heartfelt change, creating ripples of hope
             and compassion. Each act of kindness lifts lives, inspiring others
             and uniting us in a shared journey toward a brighter, more

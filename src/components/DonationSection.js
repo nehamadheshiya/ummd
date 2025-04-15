@@ -32,9 +32,9 @@ const DonationSection = () => {
           <div className="bg-[#FFE353] p-3 rounded-xl">
             <img src={health} className="text-2xl text-green-900 h-7 w-8" />
           </div>
-          <h3 className="text-xl font-semibold">Health for All</h3>
+          <h3 className="text-xl font-semibold">Healthcare & Essentials</h3>
           <p className="text-sm">
-            Providing free health check-ups, medicine, and support for underserved populations.
+          We donate medical kits, hygiene products, nutritious food, and clean water to improve the well-being of vulnerable communities, focusing on health and sanitation.
           </p>
         </div>
 
@@ -44,9 +44,9 @@ const DonationSection = () => {
           <img src={clean} className="text-2xl text-green-900 h-9 w-10" />
 
           </div>
-          <h3 className="text-xl font-semibold">Clean Water Access</h3>
+          <h3 className="text-xl font-semibold">Livelihood & Sustainability</h3>
           <p className="text-sm">
-            Installing water wells and purification systems in areas with limited access to clean water.
+          We support skill development, vocational training, and sustainable resources like sewing machines and farming tools, empowering individuals to become self-reliant.
           </p>
         </div>
 
@@ -56,9 +56,9 @@ const DonationSection = () => {
           <img src={eco} className="text-2xl text-green-900 h-9 w-10" />
 
           </div>
-          <h3 className="text-xl font-semibold">Eco Hope</h3>
+          <h3 className="text-xl font-semibold"> Education & Learning Materials</h3>
           <p className="text-sm">
-            Organizing environmental projects such as tree planting, community clean-ups, and recycling programs.
+          We provide school supplies, books, uniforms, and scholarships to underprivileged children, ensuring they have the resources needed for a brighter future.
           </p>
         </div>
       </div>
