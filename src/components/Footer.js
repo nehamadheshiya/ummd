@@ -4,15 +4,16 @@ const Footer = () => {
       <footer className="bg-[#094C3B] text-white py-5 mt-10">
         <div className="container mx-auto flex flex-col items-center space-y-6 md:space-y-2">
           <div className="flex space-x-6 text-sm">
-            <a href="/" className="hover:underline">
-              Facebook
+            <a  target="_blank" href="https://www.linkedin.com/company/umeedein13/?viewAsMember=true" className="hover:underline">
+              Linkedin
             </a>
             <span>|</span>
             <a href="/" className="hover:underline">
               Twitter
             </a>
             <span>|</span>
-            <a href="/" className="hover:underline">
+            
+            <a  target="_blank" href="https://www.instagram.com/umeedein_official/" className="hover:underline">
               Instagram
             </a>
           </div>

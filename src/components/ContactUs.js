@@ -61,17 +61,17 @@ const ContactPage = () => {
             <div className="mt-10 space-y-6">
               <div className="flex items-center space-x-3">
                 <img src={contact3} alt="Phone Icon" className="w-6 h-6" />
-                <p className="text-sm">+1012 3456 789</p>
+                <p className="text-sm">9991947908</p>
               </div>
               <div className="flex items-center space-x-3">
                 <img src={contact1} alt="Email Icon" className="w-6 h-6" />
-                <p className="text-sm">demo@gmail.com</p>
+                <p className="text-sm">info@umeedien.com</p>
               </div>
               <div className="flex items-start space-x-3">
                 <img src={contact2} alt="Location Icon" className="w-6 h-6" />
                 <p className="text-sm">
-                  132 Dartmouth Street Boston, <br />
-                  Massachusetts 02156 United States
+                  Amrapali riverview Near Dmart, <br />
+                  Greater Noida 201306
                 </p>
               </div>
             </div>
@@ -86,14 +86,14 @@ const ContactPage = () => {
                 <img src={twiter} alt="Twitter" className="w-7 h-7" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/umeedein_official/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={insta} alt="Instagram" className="w-7 h-7" />
               </a>
               <a
-                href="https://chat.com"
+                href=" https://www.linkedin.com/company/umeedein13/?viewAsMember=true"
                 target="_blank"
                 rel="noopener noreferrer"
               >

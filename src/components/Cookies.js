@@ -1,5 +1,5 @@
 import React from "react";
-import donationback from "../assets/donationback.png";
+import donationback from "../assets/Website/PrivacyPolicy.png";
 import Footer from "./Footer";
 import TestimonialSection from "./TestimonialSection";
 import vector from "../assets/Vector.png";
@@ -12,15 +12,15 @@ const Cookies = () => {
   return (
     <div className="mt-20">
       <header
-        className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
+        className="relative bg-cover bg-center bg-no-repeat h-[18vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[rgba(9,76,59,0.9)] to-[rgba(9,76,59,0.2)]"></div>
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-[rgba(9,76,59,0.9)] to-[rgba(9,76,59,0.2)]"></div>
         <img
           src={vector}
           alt="Vector"
           className="absolute top-24 left-0 h-32"
-        />
+        /> */}
         <div className="relative z-10 max-w-3xl mx-auto text-center text-white">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight">
             Cookies Policy

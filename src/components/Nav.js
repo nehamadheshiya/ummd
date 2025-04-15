@@ -1,10 +1,10 @@
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logogif from "../assets/GIF.gif";
+import logogif from "../assets/GIFN.gif";
 import cross from "../assets/cross.png";
 import threedots from "../assets/threedot.png"
-import gg_menu from "../assets/gg_menu-left.png";
+import gg_menu from "../assets/gg_menu.png";
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -90,7 +90,7 @@ const Nav = () => {
               <button className="md:hidden" onClick={() => setMenuOpen(true)}>
                 <img
                   src={gg_menu}
-                  className="transition-transform duration-300 p-1 bg-slate-50 rounded-md ease-in-out transform hover:scale-110"
+                  className="transition-transform duration-300 p-1  rounded-md ease-in-out transform hover:scale-110"
                 />
               </button>
             </div>
@@ -106,7 +106,7 @@ const Nav = () => {
         ></div>
 
         <div
-          className={`fixed top-0 right-0  mt-20 bg-gray-50 w-full shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[600] ${
+          className={`fixed top-0 right-0  mt-20 bg-gray-50 w-[60%] shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[600] ${
             menuOpen ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ maxHeight: "100vh", overflowY: "auto" }}
@@ -117,7 +117,7 @@ const Nav = () => {
           >
             <img src={cross} alt="cut" className=""/>
           </button>
-          <ul className="mt-4 space-y-5 text-gray-700">
+          <ul className="mt-4 space-y-7 text-gray-700">
             {[
               { name: "Home", path: "/" },
               { name: "Donation", path: "/donation" },
