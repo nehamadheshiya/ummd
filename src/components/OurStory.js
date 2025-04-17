@@ -25,12 +25,12 @@ const OurStory = () => {
           </p>
         </div>
       </header>
-      <div className="flex flex-col items-center px-6 py-8">
+      <div className="flex flex-col items-center px-6 py-3 lg:py-8">
         {/* Header Section */}
         {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
           Start Donations
         </button> */}
-        <h2 className="text-3xl font-bold mt-6 text-center text-gray-900">
+        <h2 className="text-3xl font-bold   mt-6 text-center text-gray-900">
           Our Story
         </h2>
         {/* <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
@@ -38,10 +38,10 @@ const OurStory = () => {
           access to clean water.
         </p> */}
       </div>
-      <div className="max-w-7xl mx-auto  text-gray-900">
+      <div className="max-w-7xl mx-auto px-4 lg:px-0  text-gray-900">
         <section className="mb-6">
        
-          <p className="text-justify text-gray-700 mt-4">
+          <p className="text-justify  text-gray-700 mt-4">
             At Umeedein, we believe that hope has the power to transform lives,
             and every small act of kindness can create ripples of change.
             Founded with a vision to make a tangible impact, we are dedicated to

@@ -5,6 +5,7 @@ import logogif from "../assets/GIFN.gif";
 import cross from "../assets/cross.png";
 import threedots from "../assets/threedot.png"
 import gg_menu from "../assets/gg_menu.png";
+import ScrollToTop from "./ScrollToTop"; 
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);

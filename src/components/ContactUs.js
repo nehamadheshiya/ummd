@@ -77,7 +77,7 @@ const ContactPage = () => {
             </div>
 
             {/* Social Icons */}
-            <div className="hidden lg:flex space-x-4 mt-48">
+            <div className="flex space-x-4  mt-20 ml-1 lg:ml-0 lg:mt-48">
               <a
                 href="https://twitter.com"
                 target="_blank"

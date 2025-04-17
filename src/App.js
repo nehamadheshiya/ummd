@@ -16,13 +16,16 @@ import OurStory from "./components/OurStory";
 import WhatWeOffer from "./components/WhatWeOffer";
 import Blog from "./components/Blog";
 import Cookies from "./components/Cookies";
-
+import SmallDonation from "./components/SmallDonation";
+import ScrollToTop from "./components/ScrollToTop"; 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> 
+
       <Nav /> 
-      <Routes>      
+      <Routes>     
         <Route
           path="/"
           element={
@@ -45,9 +48,9 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/our-story" element={<OurStory />} />
         <Route path="/blog" element={<Blog />} />
-
         <Route path="/how-we-work" element={<WhatWeOffer />} />
         <Route path="/cookies-policy" element={<Cookies />} />
+        <Route path="/blog-details/1" element={<SmallDonation />} />
 
 
       </Routes>

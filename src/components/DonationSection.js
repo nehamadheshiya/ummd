@@ -22,7 +22,7 @@ const DonationSection = () => {
         Explore What We Donate
       </h2>
       <p className="text-center text-gray-800 max-w-xl mt-2 text-lg">
-        Installing water wells and purification systems in areas with limited access to clean water.
+        {/* Installing water wells and purification systems in areas with limited access to clean water. */}
       </p>
 
       {/* Cards Section */}
